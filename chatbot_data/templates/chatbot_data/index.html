@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+  {% load static %}
+    <link rel="stylesheet" href="{% static "/style/style.css" %}">
+
+{#  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>#}
+
+    {% load static %}
+    <script src="{% static "/javascript/jquery.min.js" %}"></script>
+    {% load static %}
+    <script src="{% static "/javascript/chatbot.js" %}"></script>
+  <title>Chatbot | Pakistan General Knowledge</title>
+</head>
+
+<body class="bg-info">
+  <div class="py-5 text-white bg-info">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="text-center m-4">PK.BOT - Pakistan General Knowledge chatbot
+            <br>
+          </h2>
+        </div>
+      </div>
+      <div class="row bg-light text-info text-center py-5">
+        <div class="col-md-12">
+          <h1>Ask about Pakistan</h1>
+          <p>We would love to hear from you</p>
+          <form>
+            <div class="form-group mx-5"> <label for="Textarea">Write here</label> <textarea required="required" id="question" class="form-control" id="Textarea" rows="3" placeholder="Type here"></textarea> </div>
+            <button id="submit" type="button" class="btn btn-info text-white w-50">Submit</button>
+          </form>
+          <h2>Answer
+            <br>
+          </h2>
+          <h4 class="bg-info text-white p-2 mx-5" id="machineResponse"></h4>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+</body>
+
+</html>
