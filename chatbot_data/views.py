@@ -12,7 +12,8 @@ from chatterbot.trainers import ListTrainer
 
 # DB COnfig
 db = "chatbot_data"
-db_url = "mongodb://127.0.0.1:27017/"
+# db_url = "mongodb://127.0.0.1:27017/"
+db_url = 'mongodb://najeeb.tyson:IAMMlaB7@ds111535.mlab.com:11535/chatbot_data'
 storage_adapter="chatterbot.storage.MongoDatabaseAdapter"
 
 # #bot config
