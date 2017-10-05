@@ -27,8 +27,8 @@ bot = ChatBot(
     filters=[
         'chatterbot.filters.RepetitiveResponseFilter'
     ],
-    database_uri=db_url,
-    database=db
+    database_uri='mongodb://najeeb.tyson:IAMMlaB7@ds111535.mlab.com:11535/',
+    database='chatbot_data'
 )
 
 convo1= [
