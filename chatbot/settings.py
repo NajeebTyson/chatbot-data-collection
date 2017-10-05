@@ -25,7 +25,9 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'jxh2kktg@&pjx-vtix@p(sq9h4dto*
 # DEBUG = True
 DEBUG = bool(os.environ.get('DJANGO_DEBUG', True))
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'cryptic-hamlet-56422.herokuapp.com'
+]
 
 
 # Application definition

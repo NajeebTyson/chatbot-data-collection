@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c64fd66b-b690-4cce-8128-efebe99c3584" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chatbot/settings.py" afterPath="$PROJECT_DIR$/chatbot/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chatbot_data/question_data.json" afterPath="$PROJECT_DIR$/chatbot_data/question_data.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chatbot_data/views.py" afterPath="$PROJECT_DIR$/chatbot_data/views.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,11 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/chatbot/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="129" column="38" lean-forward="true" selection-start-line="129" selection-start-column="38" selection-end-line="129" selection-end-column="38" />
+            <state relative-caret-position="180">
+              <caret line="28" column="40" lean-forward="false" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -57,7 +55,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chatbot_data/views.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
@@ -91,8 +89,8 @@
         <option value="$PROJECT_DIR$/chatbot/urls.py" />
         <option value="$PROJECT_DIR$/chatbot_data/question_data.json" />
         <option value="$PROJECT_DIR$/chatbot_data/templates/chatbot_data/index.html" />
-        <option value="$PROJECT_DIR$/chatbot/settings.py" />
         <option value="$PROJECT_DIR$/chatbot_data/views.py" />
+        <option value="$PROJECT_DIR$/chatbot/settings.py" />
       </list>
     </option>
   </component>
@@ -365,14 +363,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chatbot/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="129" column="38" lean-forward="true" selection-start-line="129" selection-start-column="38" selection-end-line="129" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chatbot_data/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -381,6 +371,14 @@
             <element signature="e#24#63#0" expanded="true" />
             <element signature="e#821#2214#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chatbot/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="28" column="40" lean-forward="false" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
+          <folding />
         </state>
       </provider>
     </entry>
