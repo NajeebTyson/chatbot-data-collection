@@ -22,13 +22,13 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'jxh2kktg@&pjx-vtix@p(sq9h4dto*-v@75xl)-q*w!r)5cd8i')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-# DEBUG = True
-DEBUG = bool(os.environ.get('DJANGO_DEBUG', True))
+DEBUG = True
+# DEBUG = bool(os.environ.get('DJANGO_DEBUG', True))
 
 ALLOWED_HOSTS = [
-    'cryptic-hamlet-56422.herokuapp.com',
+    'cryptic-hamlet-56422.herokuapp.com'
 ]
-
+#, u'127.0.0.1', u'localhost'
 
 # Application definition
 

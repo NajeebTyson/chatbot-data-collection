@@ -13,22 +13,26 @@ from chatterbot.trainers import ListTrainer
 # DB COnfig
 # db = "chatbot_data"
 # db_url = "mongodb://127.0.0.1:27017/"
-db = 'chatbot_data'
-db_url = 'mongodb://najeeb.tyson:IAMMlaB7@ds111535.mlab.com:11535/'
+
+# remote DB config
+# db = 'chatbot_data'
+# db_url = 'mongodb://najeeb.tyson:IAMMlaB7@ds111535.mlab.com:11535/'
+
+
 storage_adapter="chatterbot.storage.MongoDatabaseAdapter"
 
 # #bot config
 bot = ChatBot(
     'PakBot',
-    storage_adapter=storage_adapter,
+    # storage_adapter=storage_adapter,
     logic_adapters=[
         'chatterbot.logic.BestMatch'
     ],
     filters=[
         'chatterbot.filters.RepetitiveResponseFilter'
     ],
-    database_uri=db_url,
-    database=db
+    # database_uri=db_url,
+    # database=db
 )
 
 convo1= [
