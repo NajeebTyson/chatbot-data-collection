@@ -8,7 +8,7 @@ $('document').ready(function () {
             var content = {
                 'question': questionText
             };
-            var url = 'http://localhost:8000/ask-question/';
+            var url = 'https://cryptic-hamlet-56422.herokuapp.com/ask-question/';
             var csrftoken = jQuery("[name=csrfmiddlewaretoken]").val();
             function csrfSafeMethod(method) {
                 return (/^(GET|HEAD|OPTIONS|TRACE)$/.test(method));
