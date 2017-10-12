@@ -26,8 +26,9 @@ DEBUG = True
 # DEBUG = bool(os.environ.get('DJANGO_DEBUG', True))
 
 ALLOWED_HOSTS = [
-    'cryptic-hamlet-56422.herokuapp.com'
+    'pk-bot.herokuapp.com'
 ]
+#cryptic-hamlet-56422
 #, u'127.0.0.1', u'localhost'
 
 # Application definition
