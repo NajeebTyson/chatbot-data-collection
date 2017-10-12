@@ -11,10 +11,10 @@ from chatterbot.trainers import ListTrainer
 # Create your views here.
 
 # DB COnfig
-# db = "chatbot_data"
-# db_url = "mongodb://127.0.0.1:27017/"
-db = 'chatbot_data'
-db_url = 'mongodb://najeeb.tyson:IAMMlaB7@ds111535.mlab.com:11535/'
+db = "chatbot_data"
+db_url = "mongodb://127.0.0.1:27017/"
+# db = 'chatbot_data'
+# db_url = 'mongodb://najeeb.tyson:IAMMlaB7@ds111535.mlab.com:11535/'
 storage_adapter="chatterbot.storage.MongoDatabaseAdapter"
 
 # #bot config
@@ -27,8 +27,8 @@ bot = ChatBot(
     filters=[
         'chatterbot.filters.RepetitiveResponseFilter'
     ],
-    database_uri='mongodb://najeeb.tyson:IAMMlaB7@ds111535.mlab.com:11535/',
-    database='chatbot_data'
+    database_uri=db_url,
+    database=db
 )
 
 convo1= [
