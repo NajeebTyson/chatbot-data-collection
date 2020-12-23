@@ -4,7 +4,7 @@ backports.weakref==1.0rc1
 ChatterBot==0.7.6
 chatterbot-corpus==1.0.1
 click==6.7
-Django==1.11.5
+Django==1.11.29
 django-cors-headers==2.1.0
 django-mongodb-engine==0.6.0
 djangotoolbox==1.8.0
