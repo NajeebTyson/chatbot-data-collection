@@ -11,7 +11,7 @@ djangotoolbox==1.8.0
 future==0.16.0
 gunicorn==19.6.0
 jdcal==1.3
-Jinja2==2.9.6
+Jinja2==2.10.1
 jsondatabase==0.1.7
 jsonschema==2.6.0
 Markdown==2.6.9
